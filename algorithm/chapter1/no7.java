@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.chapter1;
 
 import java.util.Scanner;
 
-public class no6 {
+public class no7 {
     public static void main(String[] args){
         
         Scanner scanint = new Scanner(System.in);
@@ -11,6 +11,6 @@ public class no6 {
         b = scanint.nextInt();
 
         scanint.close();
-        System.out.println(a * b);
+        System.out.println(a / b);
     };
 };
