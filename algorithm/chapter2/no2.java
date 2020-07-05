@@ -10,6 +10,7 @@ public class no2 {
         int test;
         
         test = scan.nextInt();
+        scan.close();
 
         if (test < 60 ){
             System.out.printf("F");

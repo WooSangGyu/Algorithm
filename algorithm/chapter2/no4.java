@@ -12,6 +12,8 @@ public class no4 {
         x = scan.nextFloat();
         y = scan.nextFloat();
 
+        scan.close();
+
         if( x > 0 && y > 0) {
             System.out.printf("1");
         } else if (x < 0 && y > 0) {

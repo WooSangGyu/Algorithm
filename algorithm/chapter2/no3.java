@@ -10,6 +10,7 @@ public class no3 {
         int year;
         
         year = scan.nextInt();
+        scan.close();
 
         if ( year%4 == 0 && year%100 != 0 || year%400 == 0){
             System.out.printf("1");

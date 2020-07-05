@@ -14,3 +14,4 @@ public class no4 {
         System.out.println(a + b);
     };
 };
+

@@ -8,6 +8,8 @@ public class no5{
         
         int H = sc.nextInt();
         int M = sc.nextInt();
+
+        sc.close();
         
         if ( M >= 45) {
             System.out.println(H + " " + (M-45));
