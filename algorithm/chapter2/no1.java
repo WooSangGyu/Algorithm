@@ -12,6 +12,8 @@ public class no1 {
         A = scan.nextInt();
         B = scan.nextInt();
 
+        scan.close();
+
         if (A > B){
             System.out.printf(">");
         } else if( A < B) {
